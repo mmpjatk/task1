@@ -14,10 +14,10 @@
 
     public static double CalculateAverage(int[] numbers)
     {
-        long sum = 0;
+        long sum5 = 0;
         foreach (int number in numbers)
-            sum += number;
-        return (double) sum / numbers.Length;
+            sum5 += number;
+        return (double) sum5 / numbers.Length;
     }
     
     public static int FindMaximum(int[] numbers)
