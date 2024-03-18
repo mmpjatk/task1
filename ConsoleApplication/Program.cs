@@ -19,6 +19,14 @@
             sum += number;
         return (double) sum / numbers.Length;
     }
-
+    
+    public static int FindMaximum(int[] numbers)
+    {
+        int max = numbers[0]; 
+        foreach (int number in numbers)
+            if (number > max)
+                max = number;
+        return max;
+    }
 }
 
