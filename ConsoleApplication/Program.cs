@@ -11,5 +11,14 @@
     {
         Console.WriteLine("Hello, World!");
     }
+
+    public static double CalculateAverage(int[] numbers)
+    {
+        long sum = 0;
+        foreach (int number in numbers)
+            sum += number;
+        return (double) sum / numbers.Length;
+    }
+
 }
 
