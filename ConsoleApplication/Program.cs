@@ -3,8 +3,13 @@
     {
         for (int i = 0; i < 10; ++i)
         {
-            Console.WriteLine("Hello, World!");
+            HelloWorld();
         }
+    }
+
+    public static void HelloWorld()
+    {
+        Console.WriteLine("Hello, World!");
     }
 }
 
